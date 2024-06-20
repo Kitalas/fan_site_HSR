@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fan_site_HSR</title>
+    <link rel="stylesheet" href="hsr.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+<body>
+    <header>
+      <section class="header-block">
+        <nav>
+          <p class="logo">KITALAS</p>
+          <div class="links">
+            <a href="" class="link">Баннеры</a>
+            <a href="" class="link">Фотогалерея</a>
+            <a href="" class="link">Зарянка</a>
+          </div>
+          <a href="" class="btn">Забронировать</a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section>
+        <h1 class="title">В <b>Галактике</b>&nbsp; КЛАСCНО</h1>
+        <form class="dataForm">
+          <h2 class="form-title">
+            Выбери дату и скачай
+            <b>игру(если у вас не POCO Х3)</b>
+          </h2>
+          <input type="date" placeholder="Дата" />
+          <input type="text" placeholder="Никнейм" />
+          <input type="email" placeholder="Почта" />
+          <a href="" class="btn" onclick="login()">Найти грёз</a>
+        </form>
+        <p class="subtitle">
+          Подключайся к отряду или зделай свою <br />
+          и отправляйся по галактике
+        </p>
+      </section>
+
+      <section class="photogallery" id="photogallery">
+        <h1 class="block-title">
+          Снимки каждого региона на данный момент их 4
+        </h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./image/ff7fe4dfd2da296c57309edfe2cec247_4212818799441802211.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/807e520039a15abb43876a7067e74ff9_2250126543597986363.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/987be6718aa2b20b829d8fcdf72b0324_3871366622572464328.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./image/dcb8e90989bd41ec7bd9c3eb5043d8fc_3853223746994397364.png" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="section-video">
+        <video autoplay muted loop class="video">
+          <source
+            src="./video/СверхспособностьЗарянка.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <audio src="./audio/Welcome to My World.mp3"></audio>
+        
+      </section>
+      <section class="tariffs">
+        <h1 class="block-title"></h1>
+        <div class="tariffs-block">
+          <div class="tariff">
+            <img src="./image/photo_2024-06-20_18-54-35.jpg" />
+          </div>
+        </div>
+      </section>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="hsr.js"></script>
+</body>
+</html>
