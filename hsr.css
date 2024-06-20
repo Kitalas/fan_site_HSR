@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap");
+* {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -109,6 +115,7 @@ ul {
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
+    align-items: center
   }
   .form-title {
     font-weight: 600;
@@ -191,8 +198,7 @@ ul {
   
   .tariff {
     border: 1px solid #de8559;
-    position: absolute;
-    height: 200px;
+    height: 900px;
   }
   
   .tariff h3 {
